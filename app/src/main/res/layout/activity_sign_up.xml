@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#838282"
+android:orientation="vertical"
+android:padding="16dp"
+tools:context=".SignUpActivity">
+
+<!-- Add your registration UI components here -->
+<EditText
+    android:id="@+id/editTextFullName1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"
+    android:hint="Full Name"/>
+
+<EditText
+    android:id="@+id/editTextEmail1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/editTextFullName1"
+    android:layout_marginBottom="24dp"
+    android:inputType="textEmailAddress"
+    android:hint="Email"/>
+
+<EditText
+    android:id="@+id/editTextPassword1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/editTextEmail1"
+    android:layout_marginBottom="24dp"
+    android:inputType="textPassword"
+    android:hint="Password"/>
+
+<Button
+    android:id="@+id/buttonSignUp1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/editTextPassword1"
+    android:layout_marginTop="16dp"
+    android:text="Sign Up"/>
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="match_parent"
+    android:layout_height="483dp"
+    app:srcCompat="@drawable/dr" />
+
+</LinearLayout>

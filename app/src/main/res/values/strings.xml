@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+    </string>
+
+</resources>
+
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#939090"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="28sp"
+        android:text="Login " />
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="-240dp"
+        android:textSize="28sp"
+        android:text="Signup " />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,55 @@
+<!-- activity_login.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#605F5F"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+    <!-- Add your login UI components here -->
+    <EditText
+        android:id="@+id/usernameEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColor="#EFEAEA"
+        android:textColorHint="#E8E6E6"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/passwordEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#EAE8E8"
+        android:textColorHint="#EFE9E9"
+        android:textColorLink="#F6F4F4"
+        android:textSize="34sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxRememberMe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Remember Me"/>
+
+    <Button
+        android:id="@+id/loginButton1"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColorHighlight="#A12020"
+        android:textColorLink="#673AB7"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dr2" />
+
+</LinearLayout>
